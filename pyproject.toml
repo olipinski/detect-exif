@@ -1,5 +1,5 @@
 [project]
-name = "exif_delete"
+name = "detect-exif"
 version = "0.1.0"
 authors = [{ name="Olaf Lipinski" }]
 description = "A simple commandline tool to remove the EXIF data from image files."
