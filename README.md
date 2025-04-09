@@ -36,7 +36,7 @@ This tool helps protect your privacy by:
 ## Installation
 
 ```bash
-pip install exif-delete
+pip install detect-exif
 ```
 
 ## Usage
