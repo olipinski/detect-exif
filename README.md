@@ -80,11 +80,7 @@ repos:
       - id: detect-exif
         # By default, the hook only detects EXIF data with minimal output
         # To enable automatic removal, add:
-        # args: [--remove]
-        # For detailed output, add:
-        # args: [--verbose]
-        # For both removal and detailed output:
-        # args: [--remove, --verbose]
+        # args: ["--remove", "--quiet"]
 ```
 
 ## License
