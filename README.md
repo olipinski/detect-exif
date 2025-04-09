@@ -1,12 +1,13 @@
 # detect-exif
 
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 A Python tool that detects and optionally removes sensitive EXIF metadata from
 image files. Works as both a standalone command-line utility and a pre-commit
 hook to prevent accidentally committing images with private data.
 
-## Why Use detect-exif?
+## Why detect-exif?
 
 Images often contain hidden metadata like:
 
