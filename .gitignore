@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.py~
+.cache
+.pytest_cache/
+
+# PyCharm
+.idea
+
+# Notebooks
+.ipynb_checkpoints

@@ -1,0 +1,8 @@
+-   id: detect-exif
+    name: Detect EXIF
+    description: Find (and optionally remove) image files with EXIF data.
+    entry: detect-exif
+    language: python
+    types: [image]
+    require_serial: true
+    args: [--quiet]  # Use quiet mode by default for pre-commit
