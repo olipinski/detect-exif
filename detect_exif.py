@@ -145,7 +145,7 @@ def is_unsafe_exif(img):
     """
     Check if the image has any non-technical EXIF data that could be private.
 
-    Instead of using a whitelist approach, we'll assume all EXIF is unsafe
+    Instead of using a safe list approach, we'll assume all EXIF is unsafe
     except for purely technical image parameters.
 
     Parameters
